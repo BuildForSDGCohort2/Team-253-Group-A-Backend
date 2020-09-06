@@ -2,8 +2,8 @@
 
 ## Image scraping and cleaning
 
-Please follow the steps in this [tutorial](https://www.christianwerner.net/tech/Build-your-image-dataset-faster/).
-Check out `trashCovid1.csv` and `trashCovid2.csv` for search queries and exluded terms used to collect the data.
+Please follow the steps in this [tutorial](https://www.christianwerner.net/tech/Build-your-image-dataset-faster/).  
+Check out `trashCovid1.csv`, `trashCovid2.csv` and `trashCovid3.csv` for search queries and exluded terms used to collect the data.
 
 ## Renaming the images
 
