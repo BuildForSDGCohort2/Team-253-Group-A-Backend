@@ -1,6 +1,4 @@
-"""
-This piece of code is used to rename image files and move them to a specific folder.
-"""
+# This piece of code is used to rename image files and move them to a specific folder.
 
 import os
 
