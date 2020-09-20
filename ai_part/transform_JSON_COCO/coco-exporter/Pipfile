@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"jinja2" = "*"
+pillow = "*"
+shapely = "*"
+simplification = "*"
+rasterio = "*"
+requests = ">=2.20.0"
+
+[requires]
+python_version = "3.6.4"
+
+[pipenv]
+allow_prereleases = true
