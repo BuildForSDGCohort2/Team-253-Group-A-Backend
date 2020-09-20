@@ -1,4 +1,10 @@
+.ipynb_checkpoints
+data
+train
+test
+tr
 .DS_Store
+Data_train_test.zip
 # Logs
 logs
 *.log
