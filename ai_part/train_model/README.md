@@ -16,6 +16,6 @@ Please check the `Train_Detectron2_on_CleanOut.ipynb` notebook using Colab for f
 ## Best Results
 
 The best results are the ones produced by the model without data augmentation that has been trained for 3k epoch.  
-**Scores:** `AP(bbox) = 32.171` and `AP(segmentation) = 31.201`. 
-**Weights file:** [Link](https://drive.google.com/file/d/1Y4YeSB3mQ0PN9zuAdSPKtPV1jNpYa_IX/view?usp=sharing). 
+**Scores:** `AP(bbox) = 32.171` and `AP(segmentation) = 31.201`.  
+**Weights file:** [Link](https://drive.google.com/file/d/1Y4YeSB3mQ0PN9zuAdSPKtPV1jNpYa_IX/view?usp=sharing).  
 **Data files:** [Link](https://drive.google.com/file/d/1JpLqAvIbk7BpoNq7jj1_j-nx7892t_p3/view?usp=sharing). 
