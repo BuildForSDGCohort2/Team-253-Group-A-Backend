@@ -3,7 +3,7 @@
 ## Run  
 
 The API is wrapped up in a Dockerfile to make it easier to run.
-Before running the Dockerfile which can be found in the `docker_files folder.
+Before running the Dockerfile which can be found in the `docker_files` folder.
 
 Do the following :  
 
