@@ -1,5 +1,5 @@
 # Files
-.DS_Store
+*.DS_Store
 __pycache__
 model_api/api
 model_api/installation
