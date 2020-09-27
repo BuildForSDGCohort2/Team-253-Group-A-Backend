@@ -1,1 +1,5 @@
 .DS_Store
+model_api/api
+model_api/installation
+model_api/setup_detectron2
+model_api/docker_files/weights/model_final_2000.pth
