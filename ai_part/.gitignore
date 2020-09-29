@@ -4,7 +4,6 @@ __pycache__
 model_api/api
 model_api/installation
 model_api/setup_detectron2
-model_final_2000.pth
 CleanOut_data.zip
 CleanOut_data_train_test.zip
 .ipynb_checkpoints
