@@ -1,3 +1,5 @@
 build:
   docker:
     web: ai_part/model_api/docker_files/Dockerfile
+run:
+  web: bundle exec puma -C config/puma.rb
