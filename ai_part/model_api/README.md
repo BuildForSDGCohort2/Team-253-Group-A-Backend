@@ -5,7 +5,7 @@
 The API is wrapped up in a Dockerfile to make it easier to run.
 Before running the Dockerfile which can be found in the `docker_files` folder.
 
-Do the following :  
+Do the following inside the `docker_files` folder :  
 
 1- Create a `weights` folder and load the model weights in it. => [Weights file](https://drive.google.com/file/d/1Y4YeSB3mQ0PN9zuAdSPKtPV1jNpYa_IX/view?usp=sharing)
 
