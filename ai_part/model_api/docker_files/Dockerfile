@@ -29,7 +29,7 @@ WORKDIR /app/configs
 COPY configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml /app/configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml
 
 WORKDIR /app/weights
-COPY weights/model_final_2000.pth /app/weights/model_final_2000.pth
+COPY weights/model_final_3000.pth /app/weights/model_final_3000.pth
 
 WORKDIR /app/CleanOut_data
 # FROM ubuntu
