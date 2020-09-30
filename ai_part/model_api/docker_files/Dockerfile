@@ -29,7 +29,7 @@ WORKDIR /app/configs
 COPY configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml /app/configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml
 # Download the weights
 WORKDIR /app/weights
-RUN wget https://drive.google.com/uc?export=download&id=1Y4YeSB3mQ0PN9zuAdSPKtPV1jNpYa_IX
+RUN wget https://drive.google.com/u/0/uc?export=download&confirm=_rur&id=1Y4YeSB3mQ0PN9zuAdSPKtPV1jNpYa_IX
 WORKDIR /app/CleanOut_data
 # FROM ubuntu
 COPY ./CleanOut_data/test/.  /app/CleanOut_data/test/
