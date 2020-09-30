@@ -1,16 +1,13 @@
 # Files
 *.DS_Store
 __pycache__
-model_api/api
-model_api/installation
-model_api/setup_detectron2
 *.zip
 *.ipynb_checkpoints
 data
 train
 test
 tr
-Data_train_test.zip
+node_modules
 
 # Logs
 logs
