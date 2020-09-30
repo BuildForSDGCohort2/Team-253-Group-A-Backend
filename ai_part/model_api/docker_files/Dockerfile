@@ -36,9 +36,7 @@ COPY ./CleanOut_data/test/.  /app/CleanOut_data/test/
 COPY ./CleanOut_data/train/.  /app/CleanOut_data/train/
 RUN ls -la /app/
 
-ENTRYPOINT ["python", "/app/web_api_cleanout.py"]
+#ENTRYPOINT ["python", "/app/web_api_cleanout.py"]
 #Test CMD heroku
-
-#CMD ["python", "/app/web_api_cleanout.py"]
-
 #CMD gunicorn --log-level=debug --bind 0.0.0.0:$PORT -k gevent app:app
+CMD ["python", "/app/web_api_cleanout.py"]
