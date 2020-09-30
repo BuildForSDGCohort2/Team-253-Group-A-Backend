@@ -8,6 +8,7 @@ from detectron2.data.datasets import register_coco_instances
 import cv2
 import requests
 import numpy as np
+import os
 
 def score_image(predictor: DefaultPredictor, image_url: str):
     image_reponse = requests.get(image_url)
@@ -61,4 +62,6 @@ def process_score_image_request():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
