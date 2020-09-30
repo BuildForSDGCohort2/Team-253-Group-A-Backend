@@ -17,7 +17,7 @@ def score_image(predictor: DefaultPredictor, image_url: str):
     # make prediction
     return predictor(image)
 
-def prepare_pridctor():
+def prepare_predictor():
     # register the data
     register_coco_instances("cleanOut_train", {}, "/app/CleanOut_data/train/train.json", "/app/CleanOut_data/train/")
     register_coco_instances("cleanOut_val", {}, "/app/CleanOut_data/test/test.json", "/app/CleanOut_data/test/")
@@ -28,7 +28,7 @@ def prepare_pridctor():
     cfgFile = "/app/configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml"
     cfg.merge_from_file(cfgFile)
     cfg.MODEL.DEVICE = "cpu"
-    cfg.MODEL.WEIGHTS = "/app/weights/model_final_2000.pth"  # path to the model we just trained
+    cfg.MODEL.WEIGHTS = "/app/weights/model_final_3000.pth"  # path to the model we just trained
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5   # set a custom testing threshold
     cfg.MODEL.DEVICE = "cpu" # we use a CPU Detectron copy
 
@@ -39,7 +39,7 @@ def prepare_pridctor():
 
 app = flask.Flask(__name__)
 CORS(app)
-predictor, classes = prepare_pridctor()
+predictor, classes = prepare_predictor()
 
 @app.route("/api/score-image", methods=["POST"])
 def process_score_image_request():
