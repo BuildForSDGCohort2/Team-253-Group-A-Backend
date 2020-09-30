@@ -28,7 +28,7 @@ def prepare_pridctor():
     cfgFile = "/app/configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml"
     cfg.merge_from_file(cfgFile)
     cfg.MODEL.DEVICE = "cpu"
-    cfg.MODEL.WEIGHTS = "/app/weights/model_final_2000.pth"  # path to the model we just trained
+    cfg.MODEL.WEIGHTS = "/app/weights/model_final_3000.pth"  # path to the model we just trained
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5   # set a custom testing threshold
     cfg.MODEL.DEVICE = "cpu" # we use a CPU Detectron copy
 
