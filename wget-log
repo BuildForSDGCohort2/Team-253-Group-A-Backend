@@ -1,0 +1,16 @@
+--2020-09-30 17:42:17--  https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/raw/develop/ai_part/model_api/docker_files/weights/model_final_3000.pth
+Résolution de github.com (github.com)… 140.82.121.4
+Connexion à github.com (github.com)|140.82.121.4|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 302 Found
+Emplacement : https://media.githubusercontent.com/media/BuildForSDGCohort2/Team-253-Group-A-Backend/develop/ai_part/model_api/docker_files/weights/model_final_3000.pth [suivant]
+--2020-09-30 17:42:18--  https://media.githubusercontent.com/media/BuildForSDGCohort2/Team-253-Group-A-Backend/develop/ai_part/model_api/docker_files/weights/model_final_3000.pth
+Résolution de media.githubusercontent.com (media.githubusercontent.com)… 151.101.132.133
+Connexion à media.githubusercontent.com (media.githubusercontent.com)|151.101.132.133|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 351162834 (335M) [application/octet-stream]
+Sauvegarde en : « model_final_3000.pth »
+
+model_final_3000.pth      0%[                             ] 320.50K  56.7KB/s    ds 6.8s    
+
+2020-10-01 12:52:30 (46.8 KB/s) — Erreur de lecture à l’octet 328196/351162834 (Success).Nouvel essai.
+
