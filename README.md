@@ -22,7 +22,7 @@ For COVID-19, AI will check if the uploaded images contain any COVID-19 trash li
 ### Register
 
 To register or sign up please click on the `REGISTER` button on the upper right and either :
-- fill in the required information
+- fill in the required information  
 **Or**
 - use on of the social media providers like your `Google` or `Facebook` account 
 ![Register](register.png)
@@ -30,7 +30,7 @@ To register or sign up please click on the `REGISTER` button on the upper right 
 ### Log In
 
 If you have already created an account (Register), then please click on the `LOG IN` button on the upper right to log in and either:
-- fill in the required information
+- fill in the required information  
 **Or**
 - use on of the social media providers like your `Google` or `Facebook` account
 ![Log In](log_in.png)
