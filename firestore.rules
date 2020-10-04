@@ -29,5 +29,11 @@ service cloud.firestore {
       allow write: if request.auth != null && request.auth.uid == request.resource.data.uid;
     }
 
+    // contact request
+    match /contact-request/{document=**} {
+      allow read: if false;
+      allow write: if true;
+    }
+
   }
 }
