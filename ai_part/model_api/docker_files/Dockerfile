@@ -18,7 +18,7 @@ RUN pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=
 RUN python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/index.html
 
 # Development packages
-RUN pip install flask flask-cors requests opencv-python
+RUN pip install flask flask-cors gunicorn requests opencv-python
 
 
 # Added after testing the flask code
