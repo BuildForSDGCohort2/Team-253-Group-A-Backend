@@ -31,3 +31,14 @@ exports.createUserProfile = functions.auth.user().onCreate((user) => {
 
   return batch.commit();
 });
+
+exports.updateUserProfile = functions.firestore
+  .document("users/{userId}")
+  .onUpdate((change, context) => {
+    const db = admin.firestore();
+    const newValue = change.after.data();
+
+    db.collection("profiles")
+      .doc(context.params.userId)
+      .update({ displayName: newValue.displayName });
+  });
