@@ -21,12 +21,14 @@ RUN python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron
 RUN pip install flask flask-cors requests opencv-python
 
 
+
 # Added after testing the flask code
 WORKDIR /app
 COPY web_api_cleanout.py /app/web_api_cleanout.py
 
 WORKDIR /app/configs
 COPY configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml /app/configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml
+
 
 # Download the weights
 WORKDIR /app/weights

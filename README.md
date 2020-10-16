@@ -17,35 +17,57 @@ We are a team of 4 members:
 Each report has a status (trash cleaned or not). Users can create an event to gather volunteers to help during the cleaning process.  
 For COVID-19, AI will check if the uploaded images contain any COVID-19 trash like masks that needs precaution measures to clean. Or the user can choose to report to local authorities instead.
 
-## Features available
+## User Guide
 
-### Register
+### Step 1: Access the app & Regsiter
+
+Access the app by following this [link](https://awesome-jang-7f1fc2.netlify.app/).
+You will be directed to the `Spots` section,`fig. 1`, that has all the reported trash spots.
 
 To register or sign up please click on the `REGISTER` button on the upper right and either :
-- fill in the required information  
-**Or**
-- use on of the social media providers like your `Google` or `Facebook` account 
-![Register](register.png)
 
-### Log In
+- fill in the required information
+  **Or**
+- use on of the social media providers like your `Google` or `Facebook` account
+
+<img src="assets/1.gif">
 
 If you have already created an account (Register), then please click on the `LOG IN` button on the upper right to log in and either:
-- fill in the required information  
-**Or**
+
+- fill in the required information
+  **Or**
 - use on of the social media providers like your `Google` or `Facebook` account
-![Log In](log_in.png)
 
-### Add a trash report
+### Step 2: Fill in a trash report
 
-If you found trash in your neighborhood or on your walk then please report by clicking on the `New report` button on the left by the foot of the app. Please fill in the title, description and location of the trash site.
+If you found trash in your neighborhood or on your walk then please report by clicking on the `New report` button on the left by the foot of the app or the `Report a spot of trash` button.
 
-## Privacy Policy
+- Allow access to the app to get your location
+- Load the trash picture
+- Wait until the AI analysis the picture (to check if there is any Covid-19 trash like mask, gloves, tissue or gel sanitizer)
+- Fill in the title, description, select the appropriate tags and the location of the trash site
+- Wrap up by clicking on the `Create report` button
 
-Please remember to read the [Privacy Policy](https://awesome-jang-7f1fc2.netlify.app/privacy-policy) instructions.
+### Step 3: Check reported spot(s)
 
-## Terms of Service
+After you finished creating your report, you will directed to your spots; the ones you created. You can consult a spot by clicking on it.
 
-Please remember to read the [Terms of Service](https://awesome-jang-7f1fc2.netlify.app/terms-of-services) instructions.
+If you want to check all the reported spots, by you and other users, then go to the menu section and click on `Spots`.
+
+If you instead want to see only spots that have Covi-19 trash in them, then navigate to the `COVID-19` section in the menu.
+
+<img src="assets/2.gif">
+
+### Step 4: Tour the app
+
+You can also check out our :
+
+- `About` section to know more about the members.
+- `Terms of Service` & `Privacy Policy` sections.
+
+Or you can contact us by leaving us a message using the Contact us section.
+
+<img src="assets/3.gif">
 
 ## License
 
