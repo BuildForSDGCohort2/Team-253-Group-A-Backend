@@ -22,7 +22,7 @@ For COVID-19, AI will check if the uploaded images contain any COVID-19 trash li
 ### Step 1: Access the app & Regsiter
 
 Access the app by following this [link](https://awesome-jang-7f1fc2.netlify.app/).
-You will be directed to the `Spots` section,`fig. 1`, that has all the reported trash spots.
+You will be directed to the `Spots` section, that has all the reported trash spots.
 
 To register or sign up please click on the `REGISTER` button on the upper right and either :  
 
