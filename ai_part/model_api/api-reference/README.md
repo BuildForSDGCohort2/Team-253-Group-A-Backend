@@ -6,8 +6,8 @@ The CleanOut AI API lets you analyze an image and detect if it contains a mask, 
 
 ### Service endpoint
 
-A service endpoint is a base URL that specifies the network address of an API service. One service may have multiple service endpoints. This service has the following service endpoint and all URIs below are relative to this service endpoint:
-    - https://cleanout.azurewebsites.net
+A service endpoint is a base URL that specifies the network address of an API service. One service may have multiple service endpoints. This service has the following service endpoint and all URIs below are relative to this service endpoint:  
+- https://cleanout.azurewebsites.net
 
 ## REST Resource:  
 
