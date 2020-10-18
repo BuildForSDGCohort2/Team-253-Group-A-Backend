@@ -1,10 +1,10 @@
 FROM python:3.8-slim-buster
 
-RUN apt-get update -y
+RUN apt-get update -y --no-install-recommends
 
 # gcc compiler and opencv prerequisites
-RUN apt-get -y install nano git build-essential libglib2.0-0 libsm6 libxext6 libxrender-dev
-RUN apt-get update && apt-get install -y \
+RUN apt-get -y --no-install-recommends install nano git build-essential libglib2.0-0 libsm6 libxext6 libxrender-dev
+RUN apt-get update && apt-get install -y --no-install-recommends \
 	python3-opencv ca-certificates python3-dev git wget sudo  \
 	cmake ninja-build && \
   rm -rf /var/lib/apt/lists/*
