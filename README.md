@@ -28,9 +28,7 @@ To register or sign up please click on the `REGISTER` button on the upper right 
 
 - fill in the required information.        
   **Or**
-- use on of the social media providers like your `Google` or `Facebook` account.   
-
-<img src="assets/1.gif">
+- use on of the social media providers like your `Google` or `Facebook` account.  
 
 If you have already created an account (Register), then please click on the `LOG IN` button on the upper right to log in and either:  
 
@@ -56,8 +54,6 @@ If you want to check all the reported spots, by you and other users, then go to 
 
 If you instead want to see only spots that have Covi-19 trash in them, then navigate to the `COVID-19` section in the menu.  
 
-<img src="assets/2.gif">
-
 ### Step 4: Tour the app
 
 You can also check out our :  
@@ -66,6 +62,10 @@ You can also check out our :
 - `Terms of Service` & `Privacy Policy` sections.    
 
 Or you can contact us by leaving us a message using the Contact us section.
+
+## Watch the video Walkthrough
+
+[![CleanOut Walkthrough](http://img.youtube.com/vi/_3QrxiEiD-s/0.jpg)](https://youtu.be/_3QrxiEiD-s "CleanOut Walkthrough")
 
 ## License
 
