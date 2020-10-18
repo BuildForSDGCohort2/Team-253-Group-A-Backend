@@ -22,6 +22,8 @@ Also, notice that some websites hosting images have a bit strict CORS policies s
 
 After you deploy in Azure, change the local address to your new API address.
 
+![Result Example](result_example.png)
+
 ## References
 
 [Reference on which this work is based upon.](https://towardsdatascience.com/detectron2-the-basic-end-to-end-tutorial-5ac90e2f90e3)
