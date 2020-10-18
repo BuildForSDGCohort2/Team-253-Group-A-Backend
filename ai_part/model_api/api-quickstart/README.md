@@ -113,5 +113,5 @@ https://cleanout.azurewebsites.net/api/score-image
 ```sh
 {"imageUrl" : "https://lh3.googleusercontent.com/pw/ACtC-3e-07f6OhGVJBfL-LDZIj-l2bWe2hE8fCNJul3qNUV-6m7vpD4mBzEz37aJ8tohRQPwg6I3XIiZlLBZLNgd6AJPhhflRbVAWdU8KSBe_9acgFu-4moWAGkQOq_6zwgSWVUPdC54agnODyw8wuB4TBBHyg=w1150-h864-no?authuser=0"}
 ```
-For more information, please check the `cleanOut-api-reference.md` file.
+For more information, please check the [cleanOut-api-reference file](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/ai_part/model_api/api-reference/cleanOut-api-reference.md).
 
