@@ -24,9 +24,9 @@ Before running the Dockerfile which can be found in the `docker_files` folder.
 
 Do the following inside the `docker_files` folder :  
 
-1- Install [docker](https://docs.docker.com/get-docker/) if you don't have it
-2- Create a [Docker Hub](https://hub.docker.com/) account
-3- Type in your terminal:
+1- Install [docker](https://docs.docker.com/get-docker/) if you don't have it.  
+2- Create a [Docker Hub](https://hub.docker.com/) account.  
+3- Type in your terminal:   
 
 ```sh
 # Command to build the Dockerfile
@@ -35,9 +35,9 @@ docker build --rm . -t your_dockerhub_id/detectron2:cleanout_v0
 docker run -p 8484:5000 -it your_dockerhub_id/detectron2:cleanout_v0 bin/bas
 ```
 
-For the headers please use:
-**Key:** Content-Type
-**Value:** application/json
+For the headers please use:  
+**Key:** Content-Type   
+**Value:** application/json 
 
 4- Use Postman and fill the `POST` with the following address: `http://127.0.0.1:8484/api/score-image`
 ![Postman Configuration](postman_config.png)
