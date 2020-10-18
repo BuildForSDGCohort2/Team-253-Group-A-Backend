@@ -21,7 +21,7 @@ def prepare_predictor():
     # register the data
     register_coco_instances("cleanOut_train", {}, "/app/CleanOut_data/train/train.json", "/app/CleanOut_data/train/")
     register_coco_instances("cleanOut_val", {}, "/app/CleanOut_data/test/test.json", "/app/CleanOut_data/test/")
-    dataset_dicts_train = DatasetCatalog.get("cleanOut_train")
+    DatasetCatalog.get("cleanOut_train")
 
     # create config
     cfg = get_cfg()
