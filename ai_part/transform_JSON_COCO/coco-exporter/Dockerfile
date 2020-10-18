@@ -4,11 +4,11 @@ WORKDIR /app
 
 RUN pip install pipenv
 
-ADD Pipfile .
-ADD Pipfile.lock .
+COPY Pipfile .
+COPY Pipfile.lock .
 
 RUN pipenv install --system
 
-ADD . /app
+COPY . /app
 
 CMD ["python", "main.py", "/input", "/output"]
