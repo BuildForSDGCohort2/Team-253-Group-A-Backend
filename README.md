@@ -69,4 +69,4 @@ Or you can contact us by leaving us a message using the Contact us section.
 
 ## License
 
-See the [LICENSE](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Frontend/blob/develop/LICENSE) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/LICENSE) file for license rights and limitations (MIT).
