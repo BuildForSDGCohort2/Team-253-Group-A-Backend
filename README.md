@@ -52,7 +52,9 @@ After you finished creating your report, you will directed to your spots; the on
 
 If you want to check all the reported spots, by you and other users, then go to the menu section and click on `Spots`.  
 
-If you instead want to see only spots that have Covi-19 trash in them, then navigate to the `COVID-19` section in the menu.  
+If you instead want to see only spots that have Covid-19 trash in them, then navigate to the `COVID-19` section in the menu.
+
+Also, you can manage your account either with the edit or the delete by accessing `Your account` section.
 
 ### Step 4: Tour the app
 
