@@ -3,9 +3,7 @@
 ## Before you start
 
 Make sure you meet the following prerequisites before starting the tutorial steps:
-
-Familar with:  
-* Python 
+* Python 3
 * Docker and Docker Hub
 * Deep learning (instance segmentation)
 * Azure App Service
@@ -45,10 +43,10 @@ For the headers please use:
 
 #### Push your docker file to Docker Hub
 
-1- List all the docker images in your system
-2- Get the tag of the docker you want to deploy
-3- Log In to your Docker Hub account
-4- Push the docker to Docker Hub
+1- List all the docker images in your system.  
+2- Get the tag of the docker you want to deploy.  
+3- Log In to your Docker Hub account.  
+4- Push the docker to Docker Hub.  
 
 ```sh
 # Get the docker tag
@@ -74,6 +72,7 @@ docker push your_dockerhub_id/detectron2:cleanout_v0
     * Name  
     * Publish => `Docker Container`  
     * Operationg system => `Linux`  
+
 4- Click on `Next Docker`
 
 ![Create Web App : Basics](create_web_app_basics.png)
@@ -84,7 +83,8 @@ docker push your_dockerhub_id/detectron2:cleanout_v0
 * **Docker hub options**
     * Access Type => `Public`
     * Image and tag => `your_dockerhub_id/detectron2:cleanout_v0`
-    * Startup Command => `docker pull your_dockerhub_id/detectron2:cleanout_v0`
+    * Startup Command => `docker pull your_dockerhub_id/detectron2:cleanout_v0`  
+
 6- Click on `Review + create` and wait for it
 
 ![Create Web App : Docker](create_web_app_docker.png)
