@@ -61,9 +61,9 @@ docker push your_dockerhub_id/detectron2:cleanout_v0
 
 #### Step 2 - Deploy the docker file as an app in Azure
 
-1- Go to [App Services](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites) in your Azure account
-2- Click on Add
-3- In the [Create Web App](https://portal.azure.com/#create/Microsoft.WebSite) section, fill in the:
+1- Go to [App Services](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites) in your Azure account.  
+2- Click on Add.  
+3- In the [Create Web App](https://portal.azure.com/#create/Microsoft.WebSite) section, fill in the:  
 * **Project Details**  
     * Subscription  
     * Resource Group  
