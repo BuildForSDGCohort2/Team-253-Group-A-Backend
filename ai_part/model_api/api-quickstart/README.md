@@ -4,7 +4,8 @@
 
 Make sure you meet the following prerequisites before starting the tutorial steps:
 
-* Familar with Python Docker and Deep learning (instance segmentation)
+Familar with:  
+* Python 
 * Docker and Docker Hub
 * Deep learning (instance segmentation)
 * Azure App Service
