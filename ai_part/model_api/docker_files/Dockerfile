@@ -32,13 +32,12 @@ COPY configs/cleanout_mask_rcnn_R_50_FPN_3x.yaml /app/configs/cleanout_mask_rcnn
 
 # Download the weights
 WORKDIR /app/weights
-
-RUN wget https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/raw/develop/ai_part/model_api/docker_files/weights/model_final_3000.pth
+COPY weights/model_final_3000.pth /app/weights/model_final_3000.pth
 
 WORKDIR /app/CleanOut_data
-# FROM ubuntu
 COPY ./CleanOut_data/test/.  /app/CleanOut_data/test/
 COPY ./CleanOut_data/train/.  /app/CleanOut_data/train/
+
 RUN ls -la /app/
 
 ENTRYPOINT ["python", "/app/web_api_cleanout.py"]
