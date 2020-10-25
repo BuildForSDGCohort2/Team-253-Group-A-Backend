@@ -69,6 +69,20 @@ Or you can contact us by leaving us a message using the Contact us section.
 
 [![CleanOut Walkthrough](http://img.youtube.com/vi/_3QrxiEiD-s/0.jpg)](https://youtu.be/_3QrxiEiD-s "CleanOut Walkthrough")
 
+## Tutorials
+
+### Try out the API 
+Check out the simple JS [client example](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/model_api/client), to know how to use the API.
+
+### Use the API
+Checkout the [model_api](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/model_api) folder for the quickstart tutorial and the API reference.
+
+### Train the AI model
+Checkout the [modeling](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/modeling) folder to train your own model using **Detetron2**.
+
+### Learn how we collected the data
+Checkout the [data_collection](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/data_collection) folder to know how we collected the data needed to train the model.
+
 ## License
 
 See the [LICENSE](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/LICENSE) file for license rights and limitations (MIT).
