@@ -18,10 +18,9 @@ Make sure you meet the following prerequisites before starting the tutorial step
 
 Test locally if everything is working as it should before pushing your docker file.
 
-The API is wrapped up in a Dockerfile to make it easier to run.
-Before running the Dockerfile which can be found in the `docker_files` folder.
+The API is wrapped up in a Dockerfile to make it easier to run.  
 
-Do the following inside the `docker_files` folder :  
+Before running the Dockerfile, do the following inside the `docker_files` folder :  
 
 1- Install [docker](https://docs.docker.com/get-docker/) if you don't have it.  
 2- Create a [Docker Hub](https://hub.docker.com/) account.  
