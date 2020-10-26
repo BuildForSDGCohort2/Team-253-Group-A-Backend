@@ -2,13 +2,13 @@
 
 We're using firebase as part of our backend to accelerate the process of making prototype of our app (serverless):
 
-* User authentification managed by Firebae auth.
+- User authentification managed by Firebae auth.
 
-* Data stored in database is managed by Firestore.
+- Data stored in database is managed by Firestore.
 
-* Photos uploaded in our app is managed by Firebase storage.
+- Photos uploaded in our app is managed by Firebase storage.
 
-* Scheldued tasks are managed by Firebase cloud functions.
+- Scheldued tasks are managed by Firebase cloud functions.
 
 To use Firebase in your proect your need to create a Firebase project using [Firebase console](https://console.firebase.google.com/).
 and install [Firebase tools (CLI)](https://firebase.google.com/docs/cli)
@@ -19,15 +19,15 @@ and install [Firebase tools (CLI)](https://firebase.google.com/docs/cli)
 
 A minimium of knowledge is required of the following frameworks and technologies:
 
-* Node.js
+- Node.js
 
-* Firebase SDK
+- Firebase SDK
 
-* Firestore
+- Firestore
 
-* Firebase Storage
+- Firebase Storage
 
-* Firebase Cloud Functions
+- Firebase Cloud Functions
 
 ## 1. Install Firebase CLI (tools)
 
@@ -63,9 +63,9 @@ The `firebase init` command steps you through setting up your project directory 
 
 At the end of initialization, Firebase automatically creates the following two files at the root of your local app directory:
 
-* A [firebase.json](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/firebase.json) configuration file that lists your project configuration.
+- A [firebase.json](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/firebase.json) configuration file that lists your project configuration.
 
-* A [.firebaserc](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/.firebaserc) file that stores your project aliases.
+- A [.firebaserc](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/.firebaserc) file that stores your project aliases.
 
 ## 3. Setup Firebase Local Emulator
 
@@ -95,41 +95,41 @@ firebase emulators:start
 
 The Firebase CLI manages deployment of code and assets to your Firebase project, including:
 
-* [New, updated, or existing Cloud Functions for Firebase](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/functions)
+- [New, updated, or existing Cloud Functions for Firebase](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/functions)
 
-* [Rules for Cloud Storage for Firebase](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/storage.rules)
+- [Rules for Cloud Storage for Firebase](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/storage.rules)
 
-* [Rules for Cloud Firestore](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/firestore.rules)
+- [Rules for Cloud Firestore](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/firestore.rules)
 
-* [Indexes for Cloud Firestore](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/firestore.indexes.json)
+- [Indexes for Cloud Firestore](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/firestore.indexes.json)
 
 Command list we need for our project are the following:
 
-* Cloud Storage for Firebase rules
+- Cloud Storage for Firebase rules
 
 ```shell
 firebase deploy --only storage
 ```
 
-* Cloud Firestore rules and indexes
+- Cloud Firestore rules and indexes
 
 ```shell
 firebase deploy --only firestore
 ```
 
-* Cloud Firestore rules
+- Cloud Firestore rules
 
 ```shell
 firebase deploy --only firestore:rules
 ```
 
-* Cloud Firestore indexes
+- Cloud Firestore indexes
 
 ```shell
 firebase deploy --only firestore:indexes
 ```
 
-* Cloud Functions for Firebase
+- Cloud Functions for Firebase
 
 ```shell
 firebase deploy --only functions
