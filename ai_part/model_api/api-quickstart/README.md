@@ -119,3 +119,5 @@ https://cleanout.azurewebsites.net/api/score-image
 ```
 For more information, please check the [cleanOut-api-reference file](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/blob/develop/ai_part/model_api/api-reference/README.md).
 
+## Video version of this tutorial
+[![Video tutorial](http://img.youtube.com/vi/xWmflaw_BPw/0.jpg)](https://youtu.be/xWmflaw_BPw "Video tutorial")
