@@ -5,6 +5,7 @@
 # Table of Contents
 
    * [Team-253-Group-A-Backend](#team-253-group-a-backend)
+   * [Table of Contents](#table-of-contents)
       * [About the team](#about-the-team)
       * [About our project "CleanOut"](#about-our-project-cleanout)
       * [User Guide](#user-guide)
@@ -16,7 +17,7 @@
       * [Tutorials](#tutorials)
          * [Frontend Developement](#frontend-developement)
          * [Firebase Developement in Backend](#firebase-developement-in-backend)
-         * [Try out our API](#try-out-our-api)
+         * [Try out the API](#try-out-the-api)
          * [Use the API](#use-the-api)
          * [Train the AI model](#train-the-ai-model)
          * [Learn how we collected the data](#learn-how-we-collected-the-data)
