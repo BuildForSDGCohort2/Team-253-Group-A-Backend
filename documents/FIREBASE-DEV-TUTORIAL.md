@@ -15,8 +15,6 @@ and install [Firebase tools (CLI)](https://firebase.google.com/docs/cli)
 
 ## Requirement
 
----
-
 A minimium of knowledge is required of the following frameworks and technologies:
 
 - Node.js
@@ -31,8 +29,6 @@ A minimium of knowledge is required of the following frameworks and technologies
 
 ## 1. Install Firebase CLI (tools)
 
----
-
 First you need to install Firebase tools using a method that matches your operating system by following [Firebase CLI documentation](https://firebase.google.com/docs/cli).
 
 I'm using Ubuntu 20.04 for developement, so I'm running this command:
@@ -42,8 +38,6 @@ curl -sL firebase.tools | upgrade=true bash
 ```
 
 ## 2. Initialize Firebase project
-
----
 
 After installing the CLI, you must authenticate.
 
@@ -69,8 +63,6 @@ At the end of initialization, Firebase automatically creates the following two f
 
 ## 3. Setup Firebase Local Emulator
 
----
-
 For your developement & test, It would be better to run it locally rather using production envirement to test your work.
 
 Firebase provide a local emulator for almost all their services to test aigaint them locally: [Firebase Local Emulator Suite](https://firebase.google.com/docs/emulator-suite)
@@ -90,8 +82,6 @@ firebase emulators:start
 ```
 
 ## 4. Deployment
-
----
 
 The Firebase CLI manages deployment of code and assets to your Firebase project, including:
 
