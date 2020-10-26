@@ -2,6 +2,26 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8ba8b336227345f490088789142864bd)](https://app.codacy.com/gh/BuildForSDGCohort2/Team-253-Group-A-Backend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/Team-253-Group-A-Backend&utm_campaign=Badge_Grade_Dashboard)
 
+# Table of Contents
+
+   * [Team-253-Group-A-Backend](#team-253-group-a-backend)
+      * [About the team](#about-the-team)
+      * [About our project "CleanOut"](#about-our-project-cleanout)
+      * [User Guide](#user-guide)
+         * [Step 1: Access the app &amp; Regsiter](#step-1-access-the-app--regsiter)
+         * [Step 2: Fill in a trash report](#step-2-fill-in-a-trash-report)
+         * [Step 3: Check reported spot(s)](#step-3-check-reported-spots)
+         * [Step 4: Tour the app](#step-4-tour-the-app)
+      * [Watch the video Walkthrough](#watch-the-video-walkthrough)
+      * [Tutorials](#tutorials)
+         * [Frontend Developement](#frontend-developement)
+         * [Firebase Developement in Backend](#firebase-developement-in-backend)
+         * [Try out our API](#try-out-our-api)
+         * [Use the API](#use-the-api)
+         * [Train the AI model](#train-the-ai-model)
+         * [Learn how we collected the data](#learn-how-we-collected-the-data)
+      * [License](#license)
+
 ## About the team
 
 We are a team of 4 members: 
@@ -71,16 +91,24 @@ Or you can contact us by leaving us a message using the Contact us section.
 
 ## Tutorials
 
+### Frontend Developement
+
+Check out [the developement documention](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Frontend/blob/develop/documents/developpement.md) which contain all the steps needed to start developing on your local machine using ReactJs.
+
 ### Try out the API 
+
 Check out the simple JS [client example](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/model_api/client), to know how to use the API.
 
 ### Use the API
+
 Checkout the [model_api](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/model_api) folder for the quickstart tutorial and the API reference.
 
 ### Train the AI model
+
 Checkout the [modeling](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/modeling) folder to train your own model using **Detetron2**.
 
 ### Learn how we collected the data
+
 Checkout the [data_collection](https://github.com/BuildForSDGCohort2/Team-253-Group-A-Backend/tree/develop/ai_part/data_collection) folder to know how we collected the data needed to train the model.
 
 ## License
