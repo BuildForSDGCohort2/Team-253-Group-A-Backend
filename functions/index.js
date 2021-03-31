@@ -31,3 +31,56 @@ exports.createUserProfile = functions.auth.user().onCreate((user) => {
 
   return batch.commit();
 });
+
+exports.updateUserProfile = functions.firestore
+  .document("users/{userId}")
+  .onUpdate((change, context) => {
+    const db = admin.firestore();
+    const newValue = change.after.data();
+
+    return db
+      .collection("profiles")
+      .doc(context.params.userId)
+      .update({ displayName: newValue.displayName });
+  });
+
+exports.clearUserData = functions.auth.user().onDelete(async (user) => {
+  const { uid } = user;
+  const firestore = admin.firestore();
+
+  const pathsToDelete = ["/users/" + uid, "/profiles/" + uid];
+
+  const spotsRef = firestore.collection("spots");
+  const snapshot = await spotsRef.where("uid", "==", uid).get();
+  if (!snapshot.empty) {
+    snapshot.forEach((doc) => {
+      pathsToDelete.push("/spots/" + doc.id);
+    });
+  }
+
+  const promises = [];
+  if (pathsToDelete) {
+    promises.push(clearFirestoreData(pathsToDelete));
+  }
+
+  await Promise.all(promises);
+  console.log("user data has been cleared uid: " + uid);
+});
+
+const clearFirestoreData = async (paths) => {
+  const promises = paths.map(async (path) => {
+    try {
+      const firestore = admin.firestore();
+      // Wrapping in transaction to allow for automatic retries (#48)
+      await firestore.runTransaction((transaction) => {
+        transaction.delete(firestore.doc(path));
+        return Promise.resolve();
+      });
+      console.log("doc path deleted: " + path);
+    } catch (err) {
+      console.log(path + "-" + err);
+    }
+  });
+
+  await Promise.all(promises);
+};
